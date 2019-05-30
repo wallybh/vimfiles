@@ -26,4 +26,4 @@ colorscheme codedark
 
 set t_Co=256                    " forces terminal to use 256 colors
 
-source .vim-airlinerc
+source $HOME/vimfiles/.vim-airlinerc
