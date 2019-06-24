@@ -23,7 +23,7 @@ set ls=2                          " always show status bar
 set number                        " show line numbers
 " set cursorline                    " display a marker on current line
 colorscheme codedark
-
-set t_Co=256                    " forces terminal to use 256 colors
+set t_Co=256                      " forces terminal to use 256 colors
+set t_ut=""                       " disable Vim's 'Background Color Erase (BCE)'
 
 source $HOME/vimfiles/.vim-airlinerc
