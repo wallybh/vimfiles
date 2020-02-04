@@ -25,5 +25,15 @@ set number                        " show line numbers
 colorscheme codedark
 set t_Co=256                      " forces terminal to use 256 colors
 set t_ut=""                       " disable Vim's 'Background Color Erase (BCE)'
+" Mappings for <ESC> alternative
+inoremap jj <Esc>
+inoremap JJ <Esc>
+inoremap jk <Esc>
+inoremap JK <Esc>
+imap <C-L> <Esc>
+" set powershell
+set shell=powershell
+set shellcmdflag=-command
+
 
 source $HOME/vimfiles/.vim-airlinerc
